@@ -6,6 +6,16 @@
     font-weight: 500;
     font-style: normal;
 }
+body{
+    background-image: url(img/White-Background-PNG-Photos.png);
+    background-size: cover;
+    background-repeat: no-repeat;
+    background-position-y: -20rem;
+}
+::selection{
+    background-color: black;
+    color: white;
+}
 .wrap{
     width: 100%;
     height: 100%;
@@ -23,16 +33,48 @@
 .container-dois{
     width: 50%;
     height: 100vh;
-    display: flex;
-    flex-direction: column;
+    display: grid;
     align-items: center;
     justify-content: center;
 }
 .login{
+    text-align: center;
     padding: 0.2rem;
     margin: 0.2rem;
+    width: 20rem;
+    height: 2rem;
+    border-radius: 0.2rem;
+    border-width: 0.12rem;
+    border-color: black;
+    border-style: solid;
+    letter-spacing: 0.05rem;
+    font-size: 1rem;
 }
-
+.botao{
+    display: grid;
+    justify-content: center;
+    align-items: center;
+    width: 20.5rem;
+    height: 3rem;
+    background-color: black;
+    color: white;
+    border-style: solid;
+    padding: 0.3rem;
+    border-radius: 0.2rem;
+    transition: 0.2s;
+}
+.botao:hover{
+    background-color: white;
+    color: black;
+    border-color: black;
+    cursor: pointer;
+}
+.container-button{
+    display: grid;
+}
+#login{
+    margin-right: 0.54rem;
+}
 @media screen and (max-width: 530px) {
     .wrap{
         width: 100%;
