@@ -37,6 +37,11 @@ body{
     align-items: center;
     justify-content: center;
 }
+.conainer-form{
+    display: grid;
+    justify-content: center;
+    align-items: center;
+}
 .login{
     text-align: center;
     padding: 0.2rem;
@@ -74,6 +79,18 @@ body{
 }
 input:focus::-webkit-input-placeholder {
     color: transparent;
+}
+.register-button{
+    display: grid;
+    justify-content: center;
+    align-items: center;
+}
+a{
+    text-decoration: none;
+    color: black;
+}
+a:hover{
+    text-decoration: underline;
 }
 #login{
     margin-right: 0.54rem;
