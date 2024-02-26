@@ -6,26 +6,12 @@
     font-weight: 500;
     font-style: normal;
 }
-
-.wrap{
-    height: 100%;
-    width: 100%;
-}
-.title{
-    height: 6rem;
-    padding: 2rem 2rem 2rem 2.5rem;
-    font-size: 1.5rem;
-}
-.navbar{
+::selection{
     background-color: black;
     color: white;
-    width: 100vw;
-    height: 2rem;
-    display: flex;
-    margin-left: 2.5rem;
-    margin-right: 2.5rem;
-    padding: 0.5rem;
-    display: flex;
-    align-items: center;
 }
-
+.titulo{
+    flex-direction: row;
+    margin-left: 2rem;
+    margin-right: 2rem;
+}
