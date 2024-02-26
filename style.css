@@ -119,33 +119,3 @@ a:hover{
         justify-content: center;
     }
 }
-@media screen and (max-width: 345px) {
-    .wrap{
-        width: 100%;
-        height: 100%;
-        display: flex;
-        flex-direction: column;
-        flex-wrap: wrap;
-    }
-    .container-um{
-        width: 100%;
-        height: 50vh;
-        display: flex;
-        align-items: center;
-        justify-content: center;
-    }
-    .container-dois{
-        width: 100%;
-        height: 50vh;
-        display: flex;
-        flex-direction: column;
-        align-items: center;
-        justify-content: center;
-    }
-    .login{
-        width: 95%;
-    }
-    .botao{
-        width: 98.4%;
-    }
-}
