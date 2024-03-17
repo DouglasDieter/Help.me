@@ -63,3 +63,10 @@
 .cartao-link{
     text-decoration: none;
 }
+.perfil-fóruns{
+    margin: 0 2rem 0 2rem;
+}
+h5.card-header{
+    background-color: black;
+    color: white;
+}
